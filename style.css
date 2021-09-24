@@ -24,7 +24,8 @@ hr{
     margin: auto;
 }
 .container p{
-    margin-bottom: 2rem 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
 .link{
     text-decoration: none;
@@ -94,7 +95,7 @@ hr{
 }
 .section h1{
     text-align: center;
-    padding: 2rem;
+    padding: .6rem;
 }
 .section p{
     margin: 2rem 0;

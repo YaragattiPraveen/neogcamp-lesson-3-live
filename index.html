@@ -1,99 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Component Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>home | PraveenYaragatti</title>
 </head>
+
 <body>
-    <h1>PraveenYaragatti's component library</h1>
-    <p>I am attending neog comp and I want to make liblrary which would make all my project look good and consistent.</p>
+    <nav class="navigation">
+        <div class='nav-brand'>IAmDeveloper</div>
+        <ul class='list-non-bullet'>
+            <li class="list-item-inline">
+                <a class="link link-active" href="#home">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-
-    <h2>This is the second biggest</h2>
-
-    <p>Let me show you the normal text. This is free following and will wrap at the end like a paragraph.</p>
-
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>center container</h3>
-
-    <div>This is a centered container and it will go till the end of page</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <a href="http://google.com">Primary Link</a>
-    <a href="http://facebook.com">Secondary Link</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-    <h3>unordered list</h3>
-    <ul> 
-        <li>1. Item One</li>
-        <li>2. Item Two</li>
-        <li>3. Item Three</li>
-    </ul>
-
-    <hr>
-    <h2>@Nav</h2>
-    <div>IAmBrand</div>
-    <ul>
-        <li>
-            <a href="http://">Home</a>
-        </li>
-        <li>
-            <a href="">Product</a>
-        </li>
-        <li>
-            <a href="/">About</a>
-        </li>
-    </ul>
-
-    <hr>
-
-    <h2>@Header</h2>
-
-    <header>
-        <img src="hero.svg" alt="" srcset="">
-        <h1>Heading inside hero</h1>
+    <header class='hero'>
+        <img class='hero-img' src="hero.svg" alt="" srcset="">
+        <h1 class="hero-heading">Praveen Yaragatti is the <span class="heading-inverted">Web Developer</span></h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section class='section'>
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I link to showcase my work and thus, you can see my projects hosted online.</p>
+            <a class="link primary-link" href="projects.html">See Projects</a>
+        </div>
     </section>
 
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>SocialOne</li>
-            <li>SocialTwo</li>
-            <li>SocialThree</li>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non technical blogs, I like to documents my journey of learning.
+            </p>
+            <a class="link secondary-link" href="blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-header ">Social Media Presence</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class="link" href="/">GitHub</a></li>
+            <li class='list-item-inline'><a class="link" href="">LinkDin</a></li>
+            <li class='list-item-inline'><a class="link" href="">Twitter</a></li>
         </ul>
     </footer>
-
-
 </body>
-</html> 
+
+</html>
